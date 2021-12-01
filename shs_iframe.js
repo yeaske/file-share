@@ -18,7 +18,7 @@ if (shs_iframe) {
         console.log(finalURL);
         shs_iframe.src = finalURL;
     } else {
-        let finalURL = iframe_endpoint;
+        let finalURL = "https://www.sears.com/shs/orders/lookup";
         console.log(finalURL);
         shs_iframe.src = finalURL;
     }
