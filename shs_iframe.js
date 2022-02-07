@@ -5,7 +5,7 @@
 let shs_iframe_id = document.getElementById("Repair Scheduler iframe");
 if (shs_iframe_id) {
     // When order number is available.
-    let iframe_endpoint = "https://www.sears.com/shs/orders/tracker";
+    let iframe_endpoint = "https://www.sears.com/shs/orders/appointment";
     // default when no order number is available.
     let finalURL = "https://www.sears.com/shs/orders/lookup";
     let url_string = window.location.href;
